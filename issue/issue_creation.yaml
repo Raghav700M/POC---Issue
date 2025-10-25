@@ -1,0 +1,24 @@
+name: Create new issue
+description: Create new issues from the mail
+title: "Issue"
+projects: ["apple-services-data-science/5"]
+assignees:
+  - Raghav
+  -Kritika
+body:
+  - type: input
+    id: create_issue
+    attributes:
+      label: Issue Name
+      placeholder: Write the issue name
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Issue Description
+      placeholder: Paste your issue description here
+      render: shell
+    validations:
+      required: true
