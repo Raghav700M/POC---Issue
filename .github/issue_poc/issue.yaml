@@ -4,7 +4,7 @@ title: "Issue"
 projects: ["apple-services-data-science/5"]
 assignees:
   - Raghav
-  -Kritika
+  - Kritika
 body:
   - type: input
     id: create_issue
